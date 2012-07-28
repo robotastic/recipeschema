@@ -1,8 +1,8 @@
 <aside class="four columns omega offset-by-one" id="sidebar">
 
 	<ul class='pages'>
-		{% for page in site.pages %}
-		<li><h3><a href="{{ page.url }}">{{ page.title }}</a></h3></li>
+		{% for post in site.posts %}
+		<li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
 		{% endfor %}
 	</ul>
 </aside>

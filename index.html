@@ -4,10 +4,10 @@ title: Home
 ---
 <h2 class="sub-heading" id="writings">Let's get going!</h2>
 <ul class="pages">
-	{% for page in site.pages %}
+	{% for post in site.posts %}
 	<li>
 		<h3>
-		    <a href="{{ page.url }}">{{ page.title }}</a>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
 		</h3>
 	</li>
 	{% endfor %}
