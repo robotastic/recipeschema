@@ -209,12 +209,12 @@ article h1 {
 		text-shadow:1px 1px #999, 2px 2px #999;
 	}
 
-.posts {
+.pages {
 	font-size:1em;
 	list-style:disc;
 	margin-left:20px;
 }
-	.posts h3 {
+	.pages h3 {
 		font-family:Georgia, "Times New Roman", serif;
 		font-size:1.2em;
 		line-height:1.2em;
@@ -223,11 +223,11 @@ article h1 {
 		text-decoration:none;
 	}
 
-	#sidebar .posts h3 {
+	#sidebar .pages h3 {
 		font-size:1.2em;
 	}
 
-	.posts a {
+	.pages a {
 		color:#444;
 		border-bottom:1px dotted black;
 		-moz-transition: color .2s ease-in-out;
@@ -237,38 +237,18 @@ article h1 {
 		transition: color .2s ease-in-out;
 	}
 
-	.posts a:hover {
+	.pages a:hover {
 		color:#007eff;
 	}
 
-	.post-date,
-	.post-meta {
+	.page-date,
+	.page-meta {
 		color:#666;
 		font-size:.75em;
 		padding-left:10px;
 	}
 
-/*= Disqus
-***********************************************/
-#dsq-subscribe {
-	font-size:0.75em;
-}
 
-#dsq-subscribe li {
-	margin-right:20px !important;
-}
-
-.dsq-comment-message {
-	font-size:.5em;
-}
-
-.dsq-comment-message p {
-	line-height:1.4em;
-}
-
-.dsq-reply h3 {
-	font-size:0.75em;
-}
 
 
 /* #Media Queries
