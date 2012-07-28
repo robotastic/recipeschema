@@ -1,7 +1,7 @@
 <aside class="four columns omega offset-by-one" id="sidebar">
 
 	<ul class='pages'>
-		{% for post in site.pages limit:4 %}
+		{% for page in site.pages %}
 		<li><h3><a href="{{ page.url }}">{{ page.title }}</a></h3></li>
 		{% endfor %}
 	</ul>

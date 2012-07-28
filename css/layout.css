@@ -95,7 +95,7 @@ footer {
 	border:1px solid #efefef;
 }
 
-.post-image {
+.page-image {
 	margin-bottom:20px;
 }
 
@@ -190,7 +190,7 @@ footer {
 	top:1px;
 }
 
-/*= Posts
+/*= pages
 *****************************/
 article h1 {
 	color:#B7CC14;
@@ -203,7 +203,7 @@ article h1 {
 	text-shadow:1px 1px #6b770c, 2px 2px #6b770c, 3px 3px #6b770c;
 	text-transform:uppercase;
 }
-	article h1 .post-date {
+	article h1 .page-date {
 		color:#ccc;
 		font-size:0.65em;
 		text-shadow:1px 1px #999, 2px 2px #999;

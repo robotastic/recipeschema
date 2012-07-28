@@ -1,78 +1,15 @@
 ---
 layout: default
-title: Headquarters
+title: Home
 ---
-<p class="bigger">
-	Why hello there! I am Brian of clan Scaturro - a proud and noble tribe.
-</p>
-<p>
-  I write programs, and read books about writing programs. I spend an inordinate amount of time doing such activities...
-</p>
-<p>
-	I love spending time with my beautiful wife and baby boy in the Grandest of Rapids!
-</p>
-<p>
-	I love Jesus.
-</p>
-<p>
-	Hang out with me on <a href="https://github.com/brianium" target="_blank">Github</a> or bombard me with @ symbols on <a href="https://twitter.com/#!/scaturr" target="_blank">Twitter</a>.
-</p>
-<h2 class="sub-heading" id="writings">The Writings Of A Madman!</h2>
-<ul class="posts">
-	{% for post in site.posts %}
+<h2 class="sub-heading" id="writings">Let's get going!</h2>
+<ul class="pages">
+	{% for page in site.pages %}
 	<li>
 		<h3>
-		    <a href="{{ post.url }}">{{ post.title }}</a>
-		    <span class="post-date">{{ post.date | date_to_string }}</span>
+		    <a href="{{ page.url }}">{{ page.title }}</a>
 		</h3>
 	</li>
 	{% endfor %}
 </ul>
-
-<!-- Pagination links -->
-<h2>Around The Web</h2>
-  <ul class="posts">
-    <li>
-      <h3>
-        <a target="_blank" href="http://net.tutsplus.com/tutorials/javascript-ajax/closures-front-to-back/">Closures: Front to Back</a>
-        <span class="post-meta">Post for Nettuts+</span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.straightupsearch.com/search-marketing/marketing/2011-12-16-oneupweb-the-whys-and-hows-of-responsive-design/">The Whys and Hows of Responsive Design</a>
-        <span class="post-meta">Article for Straight Up Search </span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.creativemeat.com/development/2012-01-10-oneupweb-cross-browser-event-binding-without-jquery/">Cross Browser Event Binding Without jQuery</a>
-        <span class="post-meta">Post for Creative Meat</span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.creativemeat.com/development/2011-11-17-magento-module-development-part-2-adding-scripts-and-styles/">Magento Module Development</a>
-        <span class="post-meta">Post for Creative Meat</span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.creativemeat.com/development/2011-09-23-oneupweb-cakephpthe-containable-behavior/">CakePHP - The Containable Behavior</a>
-        <span class="post-meta">Post for Creative Meat</span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.creativemeat.com/development/2011-06-29-oneupweb-web-scrapingthe-freaker-way/">Web Scraping - The Freaker Way!</a>
-        <span class="post-meta">Post for Creative Meat</span>
-      </h3>
-    </li>
-    <li>
-      <h3>
-        <a target="_blank" href="http://www.creativemeat.com/development/2011-10-11-oneupweb-create-a-simple-product-catalog-with-wordpress-custom-post-types/">Create A Simple Product Catalog With WordPress Custom Post Types</a>
-        <span class="post-meta">Post for Creative Meat</span>
-      </h3>
-    </li>
-  </ul>
 
