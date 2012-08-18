@@ -2,9 +2,18 @@
 layout: default
 title: Home
 ---
-<h2 class="sub-heading" id="writings">Overview</h2>
-<p>Aren't all those recipe thumbnails next to Google search results nice? Doesn't it make you want to click on them? Don't you wish your recipes had them?</p>
-<p>Well they can! 
+<h2 class="sub-heading" id="writings">Features</h2>
+<ul>
+  <li>Get those thumbnails next to your Google results</li>
+  <li>Quickly import recipes from existing posts by Selecting and Tagging recipe sections</li>
+  <li>Recipes are automatically formated and can be customized using CSS</li>
+  <li>Create new recipes using free-form text entry, instead of annoying fields for each line</li>
+  <li>Special formatting and a print button, makes it easy for visitors to print recipes</li>
+</ul>
+<p>
+  This plugin makes it simple to add the extra markup Google and other search engines need to better understand your recipes. Most importantly, this is how you get those thumbnails to show up next to your recipes in Google. When recipes are entered using Recipe Schema, it correctly formats the recipe when it is displayed so that search engines can pull in additional information. There are a number of different formats for doing this. This plugin use the <a href="http://schema.org/Recipe">Schema.org</a> format that was jointly created by Google, Microsoft, and Yahoo, and is the most widely recognized.</p>
+
+<p>There are a number of different Wordpress Plugins for doing this, however what makes Recipe Schema so awesome is how easy it is to add recipes. Quickly add recipe from existing posts by selecting the recipe, and then highlighting and tagging the different parts. No retyping needed! It is just as easy to add recipes from other website. Simply copy, paste, highlight and tag! If you are entering a new recipe from scratch, the free-form entry for directions and ingredients meant that you don't have to worry about getting the right info into the right field.</p>
 <ul class="pages">
 	{% for post in site.posts %}
 	<li>
