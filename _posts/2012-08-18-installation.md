@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 
-== Installation ==
+# Installation
 
 You can download and install the Recipe Schema Plugin using the built-in WordPress plugin installer.
 
@@ -11,7 +11,7 @@ If you download the Recipe Schema Plugin manually, unzip it and upload the *reci
 
 Activate the Recipe Schema Plugin in the "Plugins" admin panel using the "Activate" link.
 
-= Settings =
+## Settings
 There are a couple of Settings for Recipe Schema. To set them, click on Recipe Schema under the Settings menu in the Wordpress Admin screen.
 
 *	You can hide/show the Printer button.
